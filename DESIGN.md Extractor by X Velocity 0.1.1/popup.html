@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DESIGN.md Extractor by X Velocity</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Fira+Code:wght@400;500&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="popup.css">
+</head>
+
+<body>
+  <div class="app-container">
+
+    <!-- X Velocity gradient stripe (top) -->
+    <div class="xv-stripe"></div>
+
+    <!-- Header -->
+    <header class="app-header">
+      <div class="logo-area">
+        <div class="logo-icon">
+          <span class="logo-design">DESIGN</span>
+          <span class="logo-badge">M↓</span>
+        </div>
+        <div class="header-meta">
+          <a href="https://xvelocity.org" target="_blank" class="xv-logo-link">
+            <span class="xv-slash s1">/</span><span class="xv-slash s2">/</span><span class="xv-slash s3">/</span>
+            <span class="xv-name">X VELOCITY.</span>
+          </a>
+          <a href="https://xvelocity.org" target="_blank" class="version-badge">v0.1.1</a>
+        </div>
+      </div>
+      <p id="page-url" class="page-url">Auto-generates from the active tab based on <span
+          class="inline-link">DESIGN.md</span> specifications.</p>
+    </header>
+
+    <!-- Tabs -->
+    <div class="tabs-nav">
+      <button class="tab-link active" data-tab="design-tab">DESIGN.md</button>
+      <button class="tab-link" data-tab="skill-tab">SKILL.md</button>
+    </div>
+
+    <!-- Main -->
+    <main class="app-main">
+      <div class="main-label">GENERATED MARKDOWN</div>
+
+      <div class="card-container">
+        <div class="card-actions">
+          <button class="action-btn copy-btn" title="Copy">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round">
+              <rect x="9" y="9" width="13" height="13" rx="0" />
+              <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1" />
+            </svg>
+          </button>
+          <button class="action-btn download-btn" title="Download">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+              <polyline points="7 10 12 15 17 10" />
+              <line x1="12" y1="15" x2="12" y2="3" />
+            </svg>
+          </button>
+          <button id="analyze-btn" class="action-btn refresh-btn" title="Re-analyze">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round">
+              <path d="M23 4v6h-6" />
+              <path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10" />
+            </svg>
+          </button>
+          <button id="info-btn" class="action-btn info-btn-el" title="Info">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10" />
+              <line x1="12" y1="8" x2="12" y2="12" />
+              <line x1="12" y1="16" x2="12.01" y2="16" />
+            </svg>
+          </button>
+        </div>
+
+        <div id="design-tab" class="tab-panel active">
+          <textarea id="design-code" readonly placeholder="Extracting page styles…"></textarea>
+        </div>
+        <div id="skill-tab" class="tab-panel">
+          <textarea id="skill-code" readonly placeholder="Extracting page styles…"></textarea>
+        </div>
+      </div>
+
+      <!-- Quick Install -->
+      <div class="install-box">
+        <div class="install-title">QUICK INSTALL</div>
+        <div class="install-buttons">
+
+          <!-- Claude — terracotta starburst -->
+          <button class="install-btn" data-tool="claude" title="Download ZIP for Claude Code">
+            <svg class="tool-icon" viewBox="0 0 46 46" xmlns="http://www.w3.org/2000/svg">
+              <rect width="46" height="46" rx="9" fill="#C96442" />
+              <g stroke="#F5DDD3" stroke-width="2.2" stroke-linecap="round">
+                <line x1="23" y1="23" x2="23" y2="10" transform="rotate(0 23 23)" />
+                <line x1="23" y1="23" x2="23" y2="10" transform="rotate(30 23 23)" />
+                <line x1="23" y1="23" x2="23" y2="10" transform="rotate(60 23 23)" />
+                <line x1="23" y1="23" x2="23" y2="10" transform="rotate(90 23 23)" />
+                <line x1="23" y1="23" x2="23" y2="10" transform="rotate(120 23 23)" />
+                <line x1="23" y1="23" x2="23" y2="10" transform="rotate(150 23 23)" />
+                <line x1="23" y1="23" x2="23" y2="10" transform="rotate(180 23 23)" />
+                <line x1="23" y1="23" x2="23" y2="10" transform="rotate(210 23 23)" />
+                <line x1="23" y1="23" x2="23" y2="10" transform="rotate(240 23 23)" />
+                <line x1="23" y1="23" x2="23" y2="10" transform="rotate(270 23 23)" />
+                <line x1="23" y1="23" x2="23" y2="10" transform="rotate(300 23 23)" />
+                <line x1="23" y1="23" x2="23" y2="10" transform="rotate(330 23 23)" />
+              </g>
+            </svg>
+            <span>Claude Code</span>
+          </button>
+
+          <!-- Codex — OpenAI swirl on dark -->
+          <button class="install-btn" data-tool="codex" title="Download ZIP for Codex">
+            <svg class="tool-icon" viewBox="0 0 46 46" xmlns="http://www.w3.org/2000/svg">
+              <rect width="46" height="46" rx="9" fill="#161616" />
+              <g fill="none" stroke="white" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <!-- OpenAI hexagonal swirl / gear shape approximation -->
+                <path d="M23 11.5
+                  C19.5 11.5 16.5 13.3 14.8 16
+                  C13.1 14.9 11 14.9 9.8 16.5
+                  C8.6 18.1 9 20.2 10.5 21.5
+                  C10.1 22.3 9.9 23.1 9.9 24
+                  C9.9 27.5 12.3 30.4 15.5 31.2
+                  C15.5 33 16.8 34.5 18.6 34.8
+                  C20.4 35.1 22.1 34.1 22.9 32.5
+                  C23.3 32.5 23.7 32.5 24.1 32.4
+                  C25 34 26.8 34.9 28.6 34.5
+                  C30.4 34.1 31.6 32.5 31.5 30.7
+                  C34.6 29.7 36.7 26.7 36.5 23.3
+                  C36.3 21.5 35.4 19.9 34.1 18.8
+                  C34.8 17.1 34.3 15.1 32.9 14
+                  C31.5 12.9 29.5 13 28.1 14.1
+                  C26.5 12.5 24.8 11.5 23 11.5Z" />
+              </g>
+              <!-- Central dot -->
+              <circle cx="23" cy="23" r="3.5" fill="white" opacity="0.9" />
+              <circle cx="23" cy="23" r="1.5" fill="#161616" />
+            </svg>
+            <span>Codex</span>
+          </button>
+
+          <!-- Cursor — 3D gem/cube on near-black -->
+          <button class="install-btn" data-tool="cursor" title="Download ZIP for Cursor">
+            <svg class="tool-icon" viewBox="0 0 46 46" xmlns="http://www.w3.org/2000/svg">
+              <rect width="46" height="46" rx="9" fill="#171310" />
+              <!-- Hexagonal outline -->
+              <polygon points="23,8 34,14.5 34,31.5 23,38 12,31.5 12,14.5" fill="none" stroke="#444"
+                stroke-width="0.5" />
+              <!-- Top-left dark face -->
+              <polygon points="23,8 12,14.5 12,23 23,19.5" fill="#383634" />
+              <!-- Top-right mid face -->
+              <polygon points="23,8 34,14.5 34,23 23,19.5" fill="#4a4745" />
+              <!-- Bright center white triangle -->
+              <polygon points="12,23 23,19.5 34,23 23,27.5" fill="#eceae4" />
+              <!-- Bottom-left -->
+              <polygon points="12,23 12,31.5 23,38 23,27.5" fill="#555350" />
+              <!-- Bottom-right -->
+              <polygon points="34,23 34,31.5 23,38 23,27.5" fill="#7a7875" />
+              <!-- Highlight on white -->
+              <polygon points="14,22.5 23,19 32,22.5 23,26" fill="#f8f6f0" opacity="0.5" />
+            </svg>
+            <span>Cursor</span>
+          </button>
+
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="app-footer">
+      <div class="xv-stripe"></div>
+      <p class="footer-text">
+        Powered by
+        <a href="https://xvelocity.org" target="_blank" class="xv-footer-link">
+          <span class="xv-slash s1">/</span><span class="xv-slash s2">/</span><span class="xv-slash s3">/</span>
+          <span class="xv-name">X VELOCITY.</span>
+        </a>
+        — <a href="https://t.me/+f-9oAHhGc28yZjQ1" target="_blank" class="support-btn">Support X Velocity</a>
+      </p>
+    </footer>
+
+    <!-- ── Info Modal (matches main page design) ───────────── -->
+    <div id="how-modal" class="modal-overlay hidden">
+      <div class="modal-panel">
+
+        <!-- Same gradient stripe as main page top -->
+        <div class="xv-stripe"></div>
+
+        <!-- Modal header with DESIGN M↓ logo + title -->
+        <div class="modal-header">
+          <div class="modal-logo-row">
+            <div class="logo-icon">
+              <span class="logo-design">DESIGN</span>
+              <span class="logo-badge">M↓</span>
+            </div>
+            <span class="modal-title">How This Was Generated</span>
+          </div>
+          <button id="modal-close" class="modal-close-btn">Close</button>
+        </div>
+
+        <!-- Body -->
+        <div class="modal-body">
+          <p class="modal-intro"><strong>DESIGN.md</strong> is generated automatically through a multi-step pipeline:
+          </p>
+          <ol class="pipeline-list">
+            <li>
+              <div class="step-row"><span class="step-num">1.</span><span class="step-bold">Style extraction.</span>
+              </div>
+              <p class="step-desc">The extension scans visible page elements and captures computed typography, colors,
+                spacing, radius, shadows, and motion values.</p>
+              <span class="step-stat" id="stat-extraction"></span>
+            </li>
+            <li>
+              <div class="step-row"><span class="step-num">2.</span><span class="step-bold">Token normalization.</span>
+              </div>
+              <p class="step-desc">Raw values are deduplicated and grouped into semantic-like token sets to create
+                reusable foundations.</p>
+              <span class="step-stat" id="stat-tokens"></span>
+            </li>
+            <li>
+              <div class="step-row"><span class="step-num">3.</span><span class="step-bold">Website profiling.</span>
+              </div>
+              <p class="step-desc">The generator uses URL/path patterns, metadata, headings, navigation labels, CTA
+                text, and structural signals (forms, tables, code blocks, pricing/product markers) to infer brand
+                context.</p>
+              <span class="step-stat" id="stat-profiling"></span>
+            </li>
+            <li>
+              <div class="step-row"><span class="step-num">4.</span><span class="step-bold">Blueprint assembly.</span>
+              </div>
+              <p class="step-desc">Content is assembled into required sections for DESIGN.md — mission, brand, style
+                foundations, accessibility, rule sets, workflow, and quality gates — while preserving required state
+                coverage.</p>
+            </li>
+            <li>
+              <div class="step-row"><span class="step-num">5.</span><span class="step-bold">Conformance checks.</span>
+              </div>
+              <p class="step-desc">The generated file is validated against required headings, frontmatter/managed
+                markers (for SKILL), accessibility target wording, and state references.</p>
+              <span class="step-stat" id="stat-checks"></span>
+            </li>
+          </ol>
+          <p class="modal-source">Based on the X Velocity DESIGN.md configuration:
+            <a href="https://xvelocity.org" target="_blank" class="modal-link">https://xvelocity.org</a>
+          </p>
+          <div class="density-box">
+            <span class="density-label">Detected Component Density Signals</span>
+            <p id="stat-density" class="density-values">—</p>
+          </div>
+        </div>
+
+        <!-- Modal footer: XV stripe + Powered by -->
+        <footer class="modal-footer">
+          <div class="xv-stripe"></div>
+          <p class="footer-text">
+            Powered by
+            <a href="https://xvelocity.org" target="_blank" class="xv-footer-link">
+              <span class="xv-slash s1">/</span><span class="xv-slash s2">/</span><span class="xv-slash s3">/</span>
+              <span class="xv-name">X VELOCITY.</span>
+            </a>
+            <a href="https://t.me/+f-9oAHhGc28yZjQ1" target="_blank" class="support-btn">Support X Velocity</a>
+          </p>
+        </footer>
+
+      </div>
+    </div>
+
+  </div>
+  <script src="jszip.min.js"></script>
+  <script type="module" src="popup.js"></script>
+</body>
+
+</html>
