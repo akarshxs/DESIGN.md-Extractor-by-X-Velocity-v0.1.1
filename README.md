@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/akarshxs/DESIGN.md-Extractor-by-X-Velocity-v0.1.1/main/icons/icon128.png" alt="DESIGN.md Extractor Icon" width="120" height="120" style="border-radius:24px;" />
+  <img src="https://raw.githubusercontent.com/akarshxs/DESIGN.md-Extractor-by-X-Velocity-v0.1.1/main/icon128.png" alt="DESIGN.md Extractor Icon" width="120" height="120" style="border-radius:24px;" />
 </p>
 
 <h1 align="center">DESIGN.md Extractor</h1>
