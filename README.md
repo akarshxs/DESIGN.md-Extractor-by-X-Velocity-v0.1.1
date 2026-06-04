@@ -113,25 +113,121 @@ Step 5 — Conformance Checks
 
 ---
 
-## 🚀 Installation
+## 🚀 How to Install in Chrome
 
-### Option 1 — Load from this repo (Developer Mode)
+> ⏱ Takes less than **60 seconds**. No account. No sign-up. No Chrome Web Store needed.
 
-1. Click the green **Code** button → **Download ZIP**
-2. Unzip the folder
-3. Open Chrome → go to `chrome://extensions/`
-4. Toggle **Developer mode** ON (top-right)
-5. Click **Load unpacked**
-6. Select the unzipped project folder
-7. The extension icon appears in your Chrome toolbar
+---
 
-### Option 2 — Clone via Git
+### Step 1 — Download the Extension Files
+
+**Option A — Download as ZIP (easiest)**
+
+1. Go to the repo: [github.com/akarshxs/DESIGN.md-Extractor-by-X-Velocity-v0.1.1](https://github.com/akarshxs/DESIGN.md-Extractor-by-X-Velocity-v0.1.1)
+2. Click the green **`<> Code`** button (top right of file list)
+3. Click **`Download ZIP`**
+4. Once downloaded, **right-click** the ZIP file → **Extract All** (Windows) or double-click (Mac)
+5. Note the path of the extracted folder — you'll need it in Step 3
+
+**Option B — Clone with Git**
 
 ```bash
 git clone https://github.com/akarshxs/DESIGN.md-Extractor-by-X-Velocity-v0.1.1.git
 ```
 
-Then follow steps 3–7 from Option 1.
+---
+
+### Step 2 — Open Chrome Extensions Page
+
+1. Open **Google Chrome**
+2. In the address bar, type exactly:
+   ```
+   chrome://extensions/
+   ```
+   and press **Enter**
+
+   > 💡 You can also get there via: Chrome menu (⋮) → **Extensions** → **Manage Extensions**
+
+3. You'll see the Extensions management page
+
+---
+
+### Step 3 — Enable Developer Mode
+
+> This is required to install extensions that aren't from the Chrome Web Store.
+
+1. Look at the **top-right corner** of the Extensions page
+2. Find the toggle labelled **"Developer mode"**
+3. Click it to turn it **ON** — it turns blue when active
+4. Three new buttons will appear: `Load unpacked` · `Pack extension` · `Update`
+
+```
+┌─────────────────────────────────────────────────────┐
+│  Extensions                     [Developer mode ●]  │
+│                                                     │
+│  [Load unpacked]  [Pack extension]  [Update]        │
+└─────────────────────────────────────────────────────┘
+```
+
+---
+
+### Step 4 — Load the Extension
+
+1. Click **`Load unpacked`** (first of the three new buttons)
+2. A file picker dialog opens
+3. Navigate to the folder you extracted in Step 1
+4. **Select the folder** that contains `manifest.json` — do **not** go inside it, just select the folder itself
+
+   > ✅ Correct: select `DESIGN.md-Extractor-by-X-Velocity-v0.1.1/`  
+   > ❌ Wrong: select `DESIGN.md-Extractor-by-X-Velocity-v0.1.1/icons/`
+
+5. Click **Select Folder** (Windows) or **Open** (Mac)
+
+---
+
+### Step 5 — Confirm It's Installed
+
+After selecting the folder, the extension card appears on the Extensions page:
+
+```
+┌─────────────────────────────────────────────────────┐
+│  🟦  DESIGN.md Extractor by X Velocity              │
+│      Version 0.1.1                                  │
+│      ● Enabled                          [Details]   │
+└─────────────────────────────────────────────────────┘
+```
+
+✅ **You're done!**
+
+---
+
+### Step 6 — Pin It to Your Toolbar
+
+1. Click the **puzzle piece icon** 🧩 in the top-right of Chrome (next to the address bar)
+2. Find **"DESIGN.md Extractor by X Velocity"** in the dropdown
+3. Click the **📌 pin icon** next to it
+4. The extension icon now appears permanently in your Chrome toolbar
+
+---
+
+### Step 7 — Use It
+
+1. Navigate to **any website** in Chrome
+2. Click the **DESIGN.md Extractor** icon in your toolbar
+3. The popup opens and automatically starts extracting
+4. Your `DESIGN.md` and `SKILL.md` are ready in seconds
+
+---
+
+### ⚠️ Troubleshooting
+
+| Problem | Fix |
+|---|---|
+| `Manifest file is missing or unreadable` | You selected the wrong folder — make sure `manifest.json` is directly inside the folder you selected |
+| Extension doesn't appear after loading | Refresh `chrome://extensions/` and check for error messages on the card |
+| Popup shows "Cannot access tab" | You're on a Chrome internal page (`chrome://`, `about:`) — navigate to a real website first |
+| Extraction returns empty | Wait for the page to fully load, then click **Re-analyze** (🔄 button) |
+| ZIP download doesn't open file picker | Check that Chrome has download permissions — go to `chrome://settings/content/automaticDownloads` |
 
 ---
 
