@@ -4,12 +4,12 @@
 
 <h1 align="center">DESIGN.md Extractor</h1>
 
-<p align="center">
+<h3 align="center">
   by&nbsp;
   <a href="https://xvelocity.org">
-    <img src="https://raw.githubusercontent.com/akarshxs/DESIGN.md-Extractor-by-X-Velocity-v0.1.1/main/x%20Velocity.png" height="20" style="vertical-align:middle;" />
+    <img src="https://raw.githubusercontent.com/akarshxs/DESIGN.md-Extractor-by-X-Velocity-v0.1.1/main/x%20Velocity.png" height="26" style="vertical-align:middle;" />
   </a>
-</p>
+</h3>
 
 <p align="center">
   <img src="https://img.shields.io/badge/version-0.1.1-white?style=flat-square&labelColor=000" alt="version" />
