@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <!-- Dark navy blue background (matches the logo's blue section) -->
+  <rect width="128" height="128" rx="18" fill="#1e1b5e"/>
+
+  <!-- Code snippet lines (top) - lighter purple/lavender color -->
+  <!-- Line: <div class="container"> -->
+  <text x="10" y="22" font-family="'Courier New', monospace" font-size="7.5" fill="#7b78c8" opacity="0.85">&lt;div class="container"&gt;</text>
+
+  <!-- Line: function designTool() { -->
+  <text x="10" y="38" font-family="'Courier New', monospace" font-size="7.5" fill="#7b78c8" opacity="0.85">function designTool() {</text>
+
+  <!-- Line:   <div class="container"> -->
+  <text x="16" y="51" font-family="'Courier New', monospace" font-size="7" fill="#7b78c8" opacity="0.75">  &lt;div class="container"&gt;</text>
+
+  <!-- DESIGN M↓ badge (center-ish) -->
+  <!-- White rounded rect behind "M↓" badge -->
+  <rect x="8" y="54" width="112" height="26" rx="5" fill="none"/>
+
+  <!-- DESIGN text (bold white) -->
+  <text x="10" y="74" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="22" fill="#ffffff" letter-spacing="-0.5">DESIGN</text>
+
+  <!-- M↓ badge (white rounded rect with dark text) -->
+  <rect x="79" y="55" width="40" height="24" rx="5" fill="#ffffff"/>
+  <text x="83" y="73" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="16" fill="#1e1b5e">M↓</text>
+
+  <!-- Code snippet lines (bottom) - lighter purple/lavender color -->
+  <!-- Line: function designTool() { -->
+  <text x="10" y="92" font-family="'Courier New', monospace" font-size="7.5" fill="#7b78c8" opacity="0.85">function designTool() {</text>
+
+  <!-- Line:   return ..; -->
+  <text x="16" y="104" font-family="'Courier New', monospace" font-size="7.5" fill="#7b78c8" opacity="0.85">  return ..;</text>
+
+  <!-- Line: } -->
+  <text x="10" y="116" font-family="'Courier New', monospace" font-size="7.5" fill="#7b78c8" opacity="0.85">}</text>
+</svg>
