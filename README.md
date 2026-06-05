@@ -6,7 +6,7 @@
 
 <p align="center">
   by&nbsp;
-  <img src="https://raw.githubusercontent.com/akarshxs/DESIGN.md-Extractor-by-X-Velocity-v0.1.1/main/x%20Velocity.png" width="28" style="vertical-align:middle;" />
+  <img src="https://raw.githubusercontent.com/akarshxs/DESIGN.md-Extractor-by-X-Velocity-v0.1.1/main/x Velocity.png" width="28" style="vertical-align:middle;" />
   <a href="https://xvelocity.org"><b>X VELOCITY.</b></a>
 </p>
 
