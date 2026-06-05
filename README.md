@@ -3,7 +3,12 @@
 </p>
 
 <h1 align="center">DESIGN.md Extractor</h1>
-<h3 align="center">by &nbsp;<a href="https://xvelocity.org">/// X VELOCITY.</a></h3>
+
+<p align="center">
+  by&nbsp;
+  <img src="https://raw.githubusercontent.com/akarshxs/DESIGN.md-Extractor-by-X-Velocity-v0.1.1/main/x%20Velocity.png" width="28" style="vertical-align:middle;" />
+  <a href="https://xvelocity.org"><b>X VELOCITY.</b></a>
+</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/version-0.1.1-white?style=flat-square&labelColor=000" alt="version" />
